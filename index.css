@@ -103,6 +103,21 @@ body {
     font-weight: 700;
   }
 
+/* 사진 */
+.photo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 228px;
+  
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
 .wrap {
   display: flex;
   flex-direction: column;
